@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #a8dadc;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fcbf49;
+    margin: 0 auto;
+    height: 900px;
+    width: 600px;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+h2{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 50px;
+    border-radius: 1rem;
+}
+input{
+    margin-bottom: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 1rem;
+    font-size: 25px;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+}
+.fotos{
+    width: 400px;
+    height: 300px;
+    border-radius: 2rem;
+}
+
+
+.todo{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: #a8dadc;
+}
+
+
+.infopizzas{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+    word-break: keep-all;
+    font-size: 27px;
+}
